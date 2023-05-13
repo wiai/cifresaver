@@ -1,0 +1,2 @@
+python -m nuitka --version
+python -m nuitka --onefile cifresaver.py --include-package-data=pymatgen --enable-plugin=tk-inter --nofollow-import-to=sympy --nofollow-import-to=mpl_toolkits --nofollow-import-to=plotly --nofollow-import-to=numba --nofollow-import-to=pytest --nofollow-import-to=mysql --nofollow-import-to=matplotlib --nofollow-import-to=sphinx  --nofollow-import-to=unittest  --nofollow-import-to=IPython --nofollow-import-to=pandas --nofollow-import-to=setuptools --nofollow-import-to=sqlalchemy
